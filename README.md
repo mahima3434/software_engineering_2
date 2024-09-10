@@ -63,4 +63,4 @@ heroku run rails db:seed
 ```
 
 * Open the app:
-[Heroku App](https://container-software-two-c71e3de99e88.herokuapp.com/movies?direction=asc&sort=title)
+[Heroku App](https://container-software-two-c71e3de99e88.herokuapp.com/movies)
