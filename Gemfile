@@ -51,7 +51,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'sqlite3', '>= 1.4'
+  gem "sqlite3", ">= 1.4"
 end
 
 group :test do
@@ -61,5 +61,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg' # for Heroku deployment
+  gem "pg" # for Heroku deployment
 end

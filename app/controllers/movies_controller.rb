@@ -4,8 +4,8 @@ class MoviesController < ApplicationController
   # GET /movies or /movies.json
   def index
     # Get the current sort and direction from params or session
-    @sort_column = params[:sort] || session[:sort] || 'title'
-    @sort_direction = params[:direction] || session[:direction] || 'asc'
+    @sort_column = params[:sort] || session[:sort] || "title"
+    @sort_direction = params[:direction] || session[:direction] || "asc"
 
     # Update session only if params are present
     if params[:sort] && params[:direction]

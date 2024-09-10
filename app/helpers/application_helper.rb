@@ -1,9 +1,9 @@
 module ApplicationHelper
   def sort_direction(column)
     if session[:sort] == column
-      session[:direction] == 'asc' ? 'desc' : 'asc'
+      session[:direction] == "asc" ? "desc" : "asc"
     else
-      'asc'
+      "asc"
     end
   end
 end
