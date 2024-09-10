@@ -1,0 +1,9 @@
+one:
+  title: "Sample Movie"
+  rating: "PG"
+  release_date: "2023-01-01"
+
+two:
+  title: "Another Movie"
+  rating: "R"
+  release_date: "2024-01-01"
